@@ -14,7 +14,7 @@ import java.security.cert.X509Certificate;
 
 /**
  * 通用http发送方法
- *
+ * 
  * @author The Sun
  */
 public class HttpUtils
@@ -250,10 +250,5 @@ public class HttpUtils
         {
             return true;
         }
-    }
-
-    public static void main(String[] args) {
-        System.err.println(sendGet("https://www.baidu.com",""));
-
     }
 }
