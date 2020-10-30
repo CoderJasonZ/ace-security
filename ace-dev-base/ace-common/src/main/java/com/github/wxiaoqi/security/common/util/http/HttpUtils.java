@@ -19,7 +19,6 @@ import java.security.cert.X509Certificate;
  */
 public class HttpUtils
 {
-    //fix-issue-bug-测试
     private static final Logger log = LoggerFactory.getLogger(HttpUtils.class);
 
     /**
